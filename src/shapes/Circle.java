@@ -8,9 +8,12 @@ public class Circle extends Shape {
     @Override
     public void draw(Graphics g) {
 
-        g.setColor(Color.darkGray);
-        g.fillOval(100,100,100,100);
-        g.drawOval(100, 100, 100, 100);
+        Graphics2D graphics2D = (Graphics2D) g;
+        graphics2D.setStroke(new BasicStroke(5));
+
+        g.setColor(Color.YELLOW);
+        g.fillOval(50,50,100,100);
+        //g.drawOval(100, 100, 100, 100);
 
     }
 
