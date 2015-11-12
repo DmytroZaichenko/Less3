@@ -1,6 +1,5 @@
-/**
- * Created by DmitryZ on 11.11.2015.
- */
+package exception;
+
 public class MyPersonalException extends RuntimeException {
 
     public MyPersonalException(String message) {

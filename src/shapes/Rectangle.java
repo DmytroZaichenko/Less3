@@ -11,8 +11,8 @@ public class Rectangle extends Shape {
     public void draw(Graphics g)
     {
 
-        g.setColor(Color.white);
-        g.fillRect(200,100,100,100);
+        g.setColor(Color.GREEN);
+        g.fillRect(200,100,100,60);
 
 
     }

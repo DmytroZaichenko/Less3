@@ -1,4 +1,4 @@
-import javax.swing.tree.ExpandVetoException;
+package exception;
 
 /**
  * Created by DmitryZ on 11.11.2015.
