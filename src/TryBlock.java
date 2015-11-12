@@ -5,32 +5,18 @@ import javax.swing.tree.ExpandVetoException;
  */
 public class TryBlock {
 
-    public static void main(String[] args){
+    public static final int i = 0;
+    public final double pi = 3.14;
 
-        try {
-            //TryBlock.doThisForMe(2,0);
-            myExc();
-        }catch (MyPersonalException e){
-            System.out.println(e.getMessage());
-        }catch (ArithmeticException e){
-            System.out.println("my by zero");
-        }catch (Exception e){
-            e.printStackTrace();
-        }finally {
-            System.out.println("print all the time");
-        }
-
-    }
-
-    public static int doThisForMe(int a, int b) throws MyPersonalException{
+    public static int doThisForMe(int a, int b) throws InterruptedException  {
 
         int c = a / b;
-
+        Thread.sleep(100);
         return c;
 
     }
 
-    public static void myExc() throws MyPersonalException{
+    public static void myExc() {
         throw new MyPersonalException("my exception");
     }
 }
