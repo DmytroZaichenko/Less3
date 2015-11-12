@@ -17,8 +17,8 @@ public class ShapesTemplate extends JPanel {
             this.shapes = new Shape[0];
         }
 
-        JFrame frame = new JFrame("BATTLE FIELD, DAY 3");
-        frame.setLocation(75,150);
+        JFrame frame = new JFrame("DAY 6, 2D Graphics");
+        frame.setLocation(750, 150);
         frame.setMinimumSize(new Dimension(600, 400));
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.getContentPane().add(this);
@@ -30,12 +30,11 @@ public class ShapesTemplate extends JPanel {
     }
 
     @Override
-    public void paintComponents(Graphics g) {
-        for (Shape s : shapes){
+    protected void paintComponent(Graphics g) {
+        for (Shape s : shapes) {
             s.draw(g);
         }
     }
-
 
 
 }
