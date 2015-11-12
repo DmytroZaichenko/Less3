@@ -1,12 +1,11 @@
 package shapes;
 
-/**
- * Created by DmitryZ on 12.11.2015.
- */
+import java.awt.*;
+
 public class Shape {
 
-    protected void draw(){
-        System.out.println("Main draw");
+    protected void draw(Graphics g){
+        throw new IllegalComponentStateException("I don't know how to paint this shape. Please override me!");
     }
 
     public int newMethod(){
