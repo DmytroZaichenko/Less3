@@ -1,6 +1,6 @@
 package shapes;
 
-import java.awt.*;
+import java.awt.Graphics;
 
 /**
  * Created by DmitryZ on 12.11.2015.
@@ -8,7 +8,7 @@ import java.awt.*;
 public class Rectangle extends Shape {
 
     @Override
-    protected void draw(Graphics g) {
+    public void draw(Graphics g) {
         System.out.println("Draw rectangle");
     }
 }
