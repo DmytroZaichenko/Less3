@@ -9,4 +9,8 @@ public class Shape {
         System.out.println("Main draw");
     }
 
+    public int newMethod(){
+        return 3*9;
+    }
+
 }
