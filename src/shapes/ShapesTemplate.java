@@ -2,7 +2,6 @@ package shapes;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
@@ -13,7 +12,7 @@ public class ShapesTemplate extends JPanel {
 
     public ShapesTemplate(Shape[] shapes) {
         this.shapes = shapes;
-        if (shapes == null || shapes.length < 1){
+        if (shapes == null || shapes.length < 1) {
             this.shapes = new Shape[0];
         }
 
@@ -26,7 +25,6 @@ public class ShapesTemplate extends JPanel {
         frame.setVisible(true);
 
         repaint();
-
     }
 
     @Override
@@ -35,6 +33,4 @@ public class ShapesTemplate extends JPanel {
             s.draw(g);
         }
     }
-
-
 }

@@ -4,11 +4,11 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        Shape[] shapes = new Shape[3];
+        Shape[] shapes = new Shape[]{new Circle()};
+        new ShapesTemplate(shapes);
 
-        Circle c = new Circle();
-        shapes[0] = c;
-        ShapesTemplate st = new ShapesTemplate(shapes);
+
+
 
     }
 

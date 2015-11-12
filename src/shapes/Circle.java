@@ -1,12 +1,17 @@
 package shapes;
 
-import java.awt.Graphics;
+import javax.swing.*;
+import java.awt.*;
 
 public class Circle extends Shape {
 
     @Override
     public void draw(Graphics g) {
-        //System.out.println("draw cirle");
-        g.drawOval(100,100,100,100);
+
+        g.setColor(Color.darkGray);
+        g.fillOval(100,100,100,100);
+        g.drawOval(100, 100, 100, 100);
+
     }
+
 }
