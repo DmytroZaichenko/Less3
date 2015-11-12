@@ -12,7 +12,7 @@ public class Circle extends Shape {
         graphics2D.setStroke(new BasicStroke(5));
 
         g.setColor(Color.YELLOW);
-        g.fillOval(50,50,100,100);
+        g.fillOval(210,210,100,100);
         //g.drawOval(100, 100, 100, 100);
 
     }

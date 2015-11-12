@@ -2,9 +2,7 @@ package shapes;
 
 import java.awt.*;
 
-/**
- * Created by admin on 12.11.2015.
- */
+
 public class Square extends Rectangle {
 
     public Square() {
@@ -12,9 +10,11 @@ public class Square extends Rectangle {
 
     @Override
     public void draw(Graphics g) {
-        super.draw(g);
-        g.setColor(Color.LIGHT_GRAY);
-        g.fillRect(500,100,30,30);
+        setXpoint(new int[] {25 ,100,100,25});
+        setYpoint(new int[] {100,100,25 ,25});
+        setNpoint(4);
+        setColor(Color.ORANGE);
 
+        super.draw(g);
     }
 }
