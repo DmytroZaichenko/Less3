@@ -8,8 +8,10 @@ public class Shape {
         throw new IllegalStateException("I don't know how to paint this shape. Please override me!");
     }
 
-    public int newMethod(){
+    private int newMethod(){
         return 3*9;
     }
+
+
 
 }
