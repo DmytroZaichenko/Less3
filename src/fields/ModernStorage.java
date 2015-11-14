@@ -1,7 +1,18 @@
 package fields;
 
-/**
- * Created by DmitryZ on 13.11.2015.
- */
-public class ModernStorage {
+
+public class ModernStorage extends Storage {
+
+    public static final String PRODUCER = "modern midgardabc";
+
+    private String[]  quotes;
+
+    public ModernStorage() {
+        quotes = new String[]{
+                "My quotes"
+        };
+    }
+
+
+
 }

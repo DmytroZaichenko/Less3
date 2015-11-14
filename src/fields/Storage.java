@@ -4,7 +4,7 @@ public class Storage {
 
     public static final String PRODUCER = "my producer";
 
-    private String[] quotes;
+    public String[] quotes;
 
     public Storage() {
         quotes = new String[]{
