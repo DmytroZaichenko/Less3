@@ -5,12 +5,12 @@ public class Demo {
 
         Storage storage = new Storage();
         storage.printQuotes();
-        System.out.println(storage.getProducer());
+        System.out.println(storage.PRODUCER);
 
         System.out.println("");
 
-        storage = new ModernStorage();
-        storage.printQuotes();
-        System.out.println(storage.getProducer());
+        ModernStorage storage1 = new ModernStorage();
+        storage1.printQuotes();
+        System.out.println(storage1.PRODUCER);
     }
 }

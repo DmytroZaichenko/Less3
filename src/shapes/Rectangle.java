@@ -2,7 +2,7 @@ package shapes;
 
 import java.awt.*;
 
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
 
     protected int[] xpoint = {125 ,300,300,125};
     protected int[] ypoint = {100,100,25 ,25};

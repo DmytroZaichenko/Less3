@@ -2,7 +2,7 @@ package shapes;
 
 import java.awt.*;
 
-public class Triangle extends Shape {
+public class Triangle extends AbstractShape {
     public Triangle() {
     }
 

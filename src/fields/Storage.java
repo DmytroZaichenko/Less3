@@ -2,7 +2,7 @@ package fields;
 
 public class Storage {
 
-    public static final String PRODUCER = "my producer";
+    public final String PRODUCER = "my producer";
 
     public String[] quotes;
 
@@ -19,7 +19,7 @@ public class Storage {
         }
     }
 
-    public static String getProducer(){
+    public String getProducer(){
         return PRODUCER;
     }
 }
