@@ -4,7 +4,7 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        AbstractShape[] shapes = new AbstractShape[]{
+        Drawable[] shapes = new Drawable[]{
                 new Circle()
                 ,new Rectangle()
                 ,new Triangle()
