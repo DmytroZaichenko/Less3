@@ -6,6 +6,7 @@ public class Circle extends AbstractShape {
 
     public Circle() {
         color = Color.YELLOW;
+        setCountOfAngle(0);
     }
 
     @Override
@@ -18,6 +19,9 @@ public class Circle extends AbstractShape {
         g.fillOval(210,210,100,100);
     }
 
-
+    @Override
+    public void printCountOfAngle() {
+        super.printCountOfAngle();
+    }
 
 }

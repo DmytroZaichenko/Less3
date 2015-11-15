@@ -1,4 +1,4 @@
-package shapes;
+package shapes1;
 
 public class Demo {
 
